@@ -1,4 +1,4 @@
-package immobilien;
+package immobilien.sol;
 
 public class Wohnhaus extends Immobilie {
     private int wohnungen;
@@ -21,7 +21,5 @@ public class Wohnhaus extends Immobilie {
         super.print();
         System.out.printf("Sie ist ein Wohnhaus und enthält %d Wohnung%s%n", wohnungen, wohnungen>1 ? "en" : "");
     }
-
-    
 
 }

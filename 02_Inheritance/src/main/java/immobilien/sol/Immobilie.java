@@ -1,4 +1,4 @@
-package immobilien;
+package immobilien.sol;
 
 public class Immobilie {
     private String besitzer;

@@ -1,4 +1,4 @@
-package immobilien;
+package immobilien.sol;
 
 public class Geschaeftshaus extends Immobilie {
     private int lagerFlaeche, bueroFlaeche;
@@ -27,9 +27,8 @@ public class Geschaeftshaus extends Immobilie {
 
     @Override
     public void print() {
-        super.print();
+        //super.print();
         System.out.printf("Sie ist ein Geschäftshaus mit %dm^2 Lagerläche und %dm^2 Bürofläche%n", lagerFlaeche, bueroFlaeche);
     }
 
-    
 }
